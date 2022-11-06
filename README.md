@@ -1,5 +1,3 @@
-# Hackaton_GrupoA1
-
 # ✨ Objetivo:
 
 - **Desafio:** Web Scrapping + Processamento de Texto
