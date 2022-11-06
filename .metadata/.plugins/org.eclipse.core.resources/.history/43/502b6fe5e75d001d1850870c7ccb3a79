@@ -1,0 +1,5 @@
+package com.mestra.vaga.api.controller;
+
+public class VagaController {
+
+}

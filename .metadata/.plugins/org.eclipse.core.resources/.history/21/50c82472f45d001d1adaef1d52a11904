@@ -1,0 +1,5 @@
+package com.mestra.vaga.domain.configuration;
+
+public class SecurityConfig {
+
+}

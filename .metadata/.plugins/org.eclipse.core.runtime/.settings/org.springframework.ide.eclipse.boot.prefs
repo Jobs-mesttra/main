@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.security=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=backend
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.5
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Scrapping Vaga Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.mestra.vaga
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=backend
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.mestra.vaga
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

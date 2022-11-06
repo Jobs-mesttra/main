@@ -1,0 +1,22 @@
+<div class="form-container container">
+    <form action="/vagas" class="search-vagas">
+        <label for="input-search">
+            <img [src]="searchIcon" alt="Digite sua busca" />
+        </label>
+        <input type="text" id="input-search" name="pesquisa" placeholder="Pesquise aqui sua vaga" />
+        <button class="button">Pesquisar</button>
+    </form>
+</div>
+
+<section class="card-container container" *ngIf="vagas.length > 0; else emptyList">
+    <app-card *ngFor="let vaga of vagas" cargo="{{vaga.cargo}}" linkVaga="{{vaga.linkVaga}}" empresa="{{vaga.empresa}}"
+        nivelVaga="{{vaga.nivelVaga}}" detalheVaga="{{vaga.detalheVaga}}" localidade="{{vaga.localidade}}"
+        dataPublicacao="{{vaga.dataPublicacao}}"></app-card>
+</section>
+
+<ng-template #emptyList>
+    <section class="not-found container">
+        <h4>Nenhuma vaga encontrada, tente novamente.</h4>
+    </section>
+</ng-template>
+<!-- | slice:0:40  -->

@@ -1,0 +1,55 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+    gap: 24px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.not-found,
+.form-container h4 {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-black);
+}
+
+.form-container .tags {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    color: var(--color-orange);
+    font-weight: var(--font-weight-bold);
+}
+
+.form-container .tags small:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+.form-container .search-vagas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+.form-container .search-vagas img {
+    width: 15px;
+}
+
+.form-container .search-vagas input {
+    width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .card-container {
+        grid-template-columns: 100%;
+    }
+}

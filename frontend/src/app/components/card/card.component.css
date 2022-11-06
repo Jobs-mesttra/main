@@ -1,0 +1,64 @@
+@import url("../../../styles.css");
+
+.card {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+    /* height: 400px;
+    overflow-y: auto; */
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-light-black);
+}
+
+h3,
+span {
+    font-weight: var(--font-weight-bold);
+}
+
+p {
+    color: var(--color-light-black);
+}
+
+.badge {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.badge small {
+    font-weight: var(--font-weight-bold);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.badge small:first-of-type {
+    color: var(--color-blue);
+    border: 1px var(--color-blue) solid;
+}
+
+.badge small:last-of-type {
+    border: 1px var(--color-light-black) solid;
+    color: var(--color-light-black);
+}
+
+.button {
+    text-align: center;
+    display: block;
+    width: 100%;
+}

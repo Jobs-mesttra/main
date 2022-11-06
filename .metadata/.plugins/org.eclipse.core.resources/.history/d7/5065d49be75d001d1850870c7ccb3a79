@@ -1,0 +1,5 @@
+package com.mestra.vaga.domain.model;
+
+public class Vaga {
+
+}
