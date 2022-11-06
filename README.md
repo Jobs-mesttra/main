@@ -19,19 +19,19 @@
 	- private String dataPublicacao;
 
 ### 2. Páginas (Front)
-    - Página Home: `domain.com`
-    - Página Vaga: `domain.com/vagas?pesquisa='VALUE'`
+- Página Home: `domain.com`
+- Página Vaga: `domain.com/vagas?pesquisa='VALUE'`
 
 ### Tecnologias e Libs
-    - Angular
-    - Java
-    - JSoup: `https://jsoup.org/`
+- Angular
+- Java
+- JSoup: `https://jsoup.org/`
 
 ### Design
-    - Página Home
+#### Página Home
 ![Página Inicial](assets/images/pagina-home.png)
 
-    - Página Vagas
+ #### Página Vagas
 ![Página Vagas](assets/images/pagina-vagas.png)
 
 </details>
